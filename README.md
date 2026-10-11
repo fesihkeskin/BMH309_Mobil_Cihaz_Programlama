@@ -27,8 +27,6 @@ Dönem boyunca 3–4 kişilik takımlar, gerçek bir kullanıcı problemine yön
 └── README.md
 ```
 
-> `Slaytlar/` altında yalnızca PDF dosyaları takip edilir; LaTeX kaynakları ve türev dosyalar `.gitignore` ile hariç tutulur.
-
 ## İçerik
 
 ### Ders notları
