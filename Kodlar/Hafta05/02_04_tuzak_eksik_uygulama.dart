@@ -1,6 +1,6 @@
 // Dosya: 02_04_tuzak_eksik_uygulama.dart
 // ❌ DERLEME HATASI
-abstract class Odeme {
+/* abstract class Odeme {
   final double tutar;
 
   Odeme(this.tutar);
@@ -19,3 +19,4 @@ class KapidaOdeme extends Odeme {
 void main() {
   print(KapidaOdeme(320).ad);
 }
+ */

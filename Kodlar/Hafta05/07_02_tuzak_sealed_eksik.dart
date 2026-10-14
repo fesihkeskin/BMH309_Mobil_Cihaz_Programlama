@@ -1,6 +1,6 @@
 // Dosya: 07_02_tuzak_sealed_eksik.dart
 // ❌ DERLEME HATASI
-sealed class EkranDurumu {}
+/* sealed class EkranDurumu {}
 
 class Yukleniyor extends EkranDurumu {}
 
@@ -23,4 +23,4 @@ String ekraniCiz(EkranDurumu durum) => switch (durum) {
 
 void main() {
   print(ekraniCiz(Hata('Sunucu yanıt vermedi')));
-}
+} */

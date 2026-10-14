@@ -1,6 +1,6 @@
 // Dosya: 02_03_tuzak_soyut_nesne.dart
 // ❌ DERLEME HATASI
-abstract class Odeme {
+/* abstract class Odeme {
   final double tutar;
 
   Odeme(this.tutar);
@@ -11,4 +11,4 @@ abstract class Odeme {
 void main() {
   Odeme o = Odeme(150);
   print(o.ucret());
-}
+} */

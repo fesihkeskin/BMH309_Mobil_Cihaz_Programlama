@@ -1,6 +1,6 @@
 // Dosya: 03_03_tuzak_implements.dart
 // ❌ DERLEME HATASI
-abstract class Paylasilabilir {
+/* abstract class Paylasilabilir {
   String paylasimMetni();
 }
 
@@ -13,3 +13,4 @@ class Fotograf implements Paylasilabilir {
 void main() {
   print(Fotograf('tatil.jpg').dosya);
 }
+ */
