@@ -22,6 +22,7 @@ Dönem boyunca 3–4 kişilik takımlar, gerçek bir kullanıcı problemine yön
 ```text
 .
 ├── Ders notları/   # Haftalık ders notları ve ders bilgi paketi (Markdown)
+├── Kodlar/         # Ders notlarındaki Dart örnekleri (haftaya göre klasörlenmiş)
 ├── Slaytlar/       # Haftalık sunumlar (PDF)
 ├── LICENSE
 └── README.md
