@@ -2,7 +2,17 @@
 
 ---
 **Ders:** BMH309 Mobil Cihaz Programlama
-**Konular:** Ödev 2 çözümleri · Sınıf ve nesne · Kurucular ve `this` · İsimli kurucular ve `factory` · Private alanlar, getter ve setter · Kalıtım ve `super` · Override · Polimorfizm ve `is`
+
+**Konular:** 
+* Ödev 2 çözümleri 
+* Sınıf ve nesne 
+* Kurucular ve `this`
+* İsimli kurucular ve `factory`
+* Private alanlar, getter ve setter
+* Kalıtım ve `super`
+* Override
+* Polimorfizm ve `is`
+
 **Yazar:** Dr. Öğr. Üyesi Fesih Keskin
 
 ---

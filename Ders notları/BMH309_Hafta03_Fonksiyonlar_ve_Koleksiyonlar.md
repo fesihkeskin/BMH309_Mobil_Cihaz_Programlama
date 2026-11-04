@@ -1413,6 +1413,11 @@ void main() {
 | `bildirimAyarla(sesli: false);` | *"The named parameter 'kanal' is required, but there's no corresponding argument."* Zorunlu parametre verilmedi. |
 | `bildirimAyarla('Mesajlar');` | İsimlendirilmiş parametre **adı yazılmadan** verildi. Doğrusu: `bildirimAyarla(kanal: 'Mesajlar');` |
 
+
+**Not:**
+1. **İsimlendirilmiş Parametreler `{ }` Doğası Gereği İsteğe Bağlıdır:** Süslü parantez içindeki parametreler isimle çağrılır ve normalde zorunlu değildir; bu yüzden ya varsayılan bir değer (`= true`), ya `null` olabilme izni (`?`), ya da girilmesini mecbur kılan `required` ifadesi ister.
+2. **`required` İstisna Yaratarak Zorunlu Yapar:** Parametreyi hem adıyla (`kanal: 'Mesajlar'`) çağırmak hem de kullanıcıyı onu girmeye mecbur bırakmak istiyorsanız `required` şarttır; aksi takdirde parametre zorunlu olmaz ve tip güvenliği (Null Safety) nedeniyle derleme hatası verir.
+
 ```dart
 // Dosya: 04_05_tuzak_varsayilan.dart
 // ❌ DERLEME HATALARI
@@ -1431,6 +1436,7 @@ void main() {}
 |---|---|
 | `{String ad}` | `ad` ne zorunlu, ne varsayılan değerli, ne de nullable. Verilmezse `null` olurdu, ama `String` null olamaz. VS Code bu çelişkiyi bildirir (*"...can't have a value of 'null' because of its type..."*). Düzeltme: `required String ad`, `String ad = 'Misafir'` veya `String? ad`. |
 | `DateTime tarih = DateTime.now()` | *"The default value of an optional parameter must be constant."* Varsayılan değerler **sabit** (`const`) olmalıdır; `DateTime.now()` sabit değildir. |
+
 
 ## 4.4 Konumsal ve isimlendirilmiş parametreleri birlikte kullanmak
 
@@ -1944,7 +1950,7 @@ void main() {
 | Yazım | Anlamı |
 |---|---|
 | `List<String> sepet = ['Süt', 'Ekmek'];` | Tipi açıkça yazılmış liste |
-| `var bildirimler = <String>[];` | **Boş** bir `String` listesi; tip açılı parantezle verilir |
+| `var bildirimler = <String>[];` | **Boş** bir `String` listesi; tip açılı parantezle `< >` verilir |
 | `var puanlar = [4, 5, 3];` | Tip, elemanlardan çıkarılır: `List<int>` |
 
 Açılı parantez içindeki tipe **generic tip** denir: `List<String>`, "yalnızca metinlerden oluşan liste" demektir. Dart, listeye yanlış tipte bir değer eklenmesini engeller:
@@ -1987,12 +1993,12 @@ void main() {
 null
 0
 ```
-
-| Tip | Anlamı |
-|---|---|
-| `List<String>` | Liste var, elemanları null olamaz |
-| `List<String?>` | Liste var, **elemanları** null olabilir (ör. cevaplanmamış anket soruları) |
-| `List<String>?` | **Listenin kendisi** olmayabilir (ör. sunucudan henüz gelmemiş veri) |
+| Tip | Listenin Kendisi | İçindeki Elemanlar | Tipik Kullanım Senaryosu |
+| --- | --- | --- | --- |
+| `List<String>` | Var (Asla `null` olamaz) | Asla `null` olamaz | Kesinlikle dolu ve geçerli veri listesi. |
+| `List<String?>` | Var (Asla `null` olamaz) | `null` olabilir | Anket yanıtları (bazı sorular boş geçilmiş). |
+| `List<String>?` | `null` olabilir | Asla `null` olamaz | Henüz yüklenmemiş kategori listesi. |
+| **`List<String?>?`** | **`null` olabilir** | **`null` olabilir** | Henüz yüklenmemiş ve gelince içinde boş değerler barındırabilecek anket formu. |
 
 ## 7.3 final ve const listeler
 
