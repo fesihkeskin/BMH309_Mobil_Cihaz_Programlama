@@ -2,7 +2,18 @@
 
 ---
 **Ders:** BMH309 Mobil Cihaz Programlama
-**Konular:** Ödev 1 çözümleri · Fonksiyon kavramı · Kısa gösterim (fat arrow) · İsteğe bağlı ve isimlendirilmiş parametreler · Dizi kavramı ve sabit uzunluklu listeler · Dinamik listeler · Liste metotları · Set · Map
+
+**Konular:**
+* Ödev 1 çözümleri
+* Fonksiyon kavramı
+* Kısa gösterim (fat arrow)
+* İsteğe bağlı ve isimlendirilmiş parametreler
+* Dizi kavramı ve sabit uzunluklu listeler
+* Dinamik listeler
+* Liste metotları
+* Set
+* Map
+
 **Yazar:** Dr. Öğr. Üyesi Fesih Keskin
 
 ---

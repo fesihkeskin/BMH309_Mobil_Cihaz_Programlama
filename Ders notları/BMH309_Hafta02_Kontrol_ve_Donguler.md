@@ -2,7 +2,16 @@
 
 ---
 **Ders:** BMH309 Mobil Cihaz Programlama
-**Konular:** if / else if / else · Üçlü operatör (ternary) · switch · Operatörler · for / while / do-while · break / continue / label · Kullanıcıdan veri alma
+
+**Konular:**
+* if / else if / else
+* Üçlü operatör (ternary)
+* switch
+* Operatörler
+* for / while / do-while
+* break / continue / label
+* Kullanıcıdan veri alma
+
 **Yazar:** Dr. Öğr. Üyesi Fesih Keskin
 
 ---

@@ -2,7 +2,18 @@
 
 ---
 **Ders:** BMH309 Mobil Cihaz Programlama
-**Konular:** Dersin tanıtımı · Flutter ve Dart nedir? · Geliştirme ortamının kurulumu · İlk Dart programı · Değişkenler · Sayılar · Metinler (String) · Mantıksal değerler (bool) · Tür dönüşümleri · Null safety'ye ilk bakış
+
+**Konular:** Dersin tanıtımı
+* Flutter ve Dart nedir?
+* Geliştirme ortamının kurulumu
+* İlk Dart programı
+* Değişkenler
+* Sayılar
+* Metinler (String)
+* Mantıksal değerler (bool)
+* Tür dönüşümleri
+* Null safety'ye ilk bakış
+
 **Yazar:** Dr. Öğr. Üyesi Fesih Keskin
 
 ---

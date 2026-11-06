@@ -2,7 +2,19 @@
 
 ---
 **Ders:** BMH309 Mobil Cihaz Programlama
-**Konular:** Ödev 3 çözümleri · Soyut sınıflar · Arayüzler (`implements`) · `mixin` · `extension` · `enum` · `sealed` sınıflar · Fonksiyonlar birer değerdir · İsimsiz fonksiyonlar · Liste ve Map için fonksiyonel metotlar (`where`, `map`, `fold`, `sort`...)
+
+**Konular:** 
+* Ödev 3 çözümleri
+* Soyut sınıflar
+* Arayüzler (`implements`)
+* `mixin`
+* `extension`
+* `enum`
+* `sealed` sınıflar
+* Fonksiyonlar birer değerdir
+* İsimsiz fonksiyonlar
+* Liste ve Map için fonksiyonel metotlar (`where`, `map`, `fold`, `sort`...)
+
 **Yazar:** Dr. Öğr. Üyesi Fesih Keskin
 
 ---
