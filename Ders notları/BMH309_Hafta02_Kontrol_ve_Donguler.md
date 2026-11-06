@@ -1,4 +1,4 @@
-# <font color='blue'>**Hafta 2 · Kontrol ve Döngü Yapıları**</font>
+# <font color='blue'>**Hafta 2 :Kontrol ve Döngü Yapıları**</font>
 
 ---
 **Ders:** BMH309 Mobil Cihaz Programlama

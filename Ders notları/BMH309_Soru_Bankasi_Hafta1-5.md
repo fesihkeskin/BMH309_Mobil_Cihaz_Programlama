@@ -1,4 +1,4 @@
-# BMH309 Mobil Cihaz Programlama · Soru Bankası (Hafta 1–5)
+# BMH309 Mobil Cihaz Programlama : Soru Bankası (Hafta 1–5)
 
 ---
 **Kapsam:** Dart temelleri, kontrol yapıları ve döngüler, fonksiyonlar ve koleksiyonlar, nesne yönelimli programlama (I ve II), fonksiyonel programlama

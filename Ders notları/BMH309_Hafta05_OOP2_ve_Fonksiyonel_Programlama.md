@@ -1,4 +1,4 @@
-# <font color='blue'>**Hafta 5 · Nesne Yönelimli Programlama II ve Fonksiyonel Programlama**</font>
+# <font color='blue'>**Hafta 5 : Nesne Yönelimli Programlama II ve Fonksiyonel Programlama**</font>
 
 ---
 **Ders:** BMH309 Mobil Cihaz Programlama

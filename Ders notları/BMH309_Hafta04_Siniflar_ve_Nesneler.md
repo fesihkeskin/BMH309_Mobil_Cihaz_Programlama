@@ -1,4 +1,4 @@
-# <font color='blue'>**Hafta 4 · Sınıflar ve Nesneler**</font>
+# <font color='blue'>**Hafta 4 : Sınıflar ve Nesneler**</font>
 
 ---
 **Ders:** BMH309 Mobil Cihaz Programlama

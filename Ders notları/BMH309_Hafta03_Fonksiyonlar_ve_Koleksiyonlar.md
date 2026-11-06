@@ -1,4 +1,4 @@
-# <font color='blue'>**Hafta 3 · Fonksiyonlar ve Koleksiyonlar**</font>
+# <font color='blue'>**Hafta 3  : Fonksiyonlar ve Koleksiyonlar**</font>
 
 ---
 **Ders:** BMH309 Mobil Cihaz Programlama
